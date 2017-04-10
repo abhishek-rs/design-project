@@ -1,0 +1,211 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+}
+
+#intro{
+    height: 120vh;
+    width: 100%;
+    background-image: url('../images/pharmacy.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    top: -100px;
+}
+
+
+#intro h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#intro p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background: none;
+    border: none;
+    border-radius: 0;
+    height: 100px;
+    padding: 30px;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+}
+
+#btn-started{
+    background-color: #4CAF50;
+    border-radius: 3px;
+}
+
+#btn-started:hover{
+    background-color: #2E7D32;
+}
+
+#topbar li a, #brand {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#topbar li a:hover{
+    background-color: white;
+    color: #351C75;
+}
+
+#brand {
+    font-size: 20px;
+}
+
+#btn-started{
+    background-color: #4CAF50;
+    border-radius: 3px;
+}
+
+#btn-started:hover{
+    background-color: #2E7D32;
+}
+
+#btn-showhow{
+    background-color: #4CAF50;
+    border-radius: 3px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#btn-showhow:hover{
+    background-color: #2E7D32;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    height: 60px;
+    top: 0;
+    box-shadow: 0px 0px 5px #d6d6c2;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 100;
+}
+
+.fixedfont {
+    color: #351C75;
+    padding: 0px;
+}
+
+.fixedfont:hover {
+    color: #fff;
+    background-color: #351C75;
+}
+
+.fixedlogo {
+    margin-top: -35px;
+}
+
+#how{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
+
+#how-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#how-right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.how-right-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+}
+
+#how h1{
+    padding: 20px;
+    color: #351C75;
+    font-size: 40px;
+}
+
+#how-left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#how-left img{
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.how-number{
+    font-size: 100px;
+    color: #351C75;
+    background-color: #351C75;
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    width: 20%;
+}
+
+.how-number img{
+    width: 80%;
+    padding: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.how-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+
+.how-text span{
+    color: #351C75;
+    font-weight: bold;
+    font-style: italic;   
+}
+
+#where{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+}
