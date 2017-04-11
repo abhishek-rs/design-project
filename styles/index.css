@@ -132,6 +132,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 #how-right{
@@ -161,9 +162,10 @@ body{
 }
 
 #how-left img{
-    width: 90%;
+    height: 500px;
+    width: 300px;
     padding: 20px;
-    
+    align-self: center;
 }
 
 .how-number{
@@ -203,9 +205,40 @@ body{
 
 #where{
     height: 100vh;
+    width:100%;
+    text-align: center;
+}
+
+#where-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/map.png');
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width:100%;
 }
+
+#where h1{
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    background-color: #351C75;
+    margin: 0;
+}
+
+#where-text{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    align-self: center;
+    width: 40%;
+}
+
+#where-text h3 span{
+    font-size: 
+}
+
+

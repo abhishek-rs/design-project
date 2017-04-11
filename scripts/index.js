@@ -15,7 +15,13 @@ $(document).ready(function() {
 
   $("#btn-how").click(function() {
       $('html, body').animate({
-          scrollTop: $("#how").offset().top
+          scrollTop: $("#how").offset().top - 150
+      }, 1500);
+  });
+
+  $("#btn-showhow").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#how").offset().top - 150
       }, 1500);
   });
 
@@ -78,18 +84,18 @@ $(document).ready(function() {
             else{
                 $how_two.css('backgroundColor','#351C75');
                 $how_two.html("2");
-                //$how_one.animate({backgroundColor :'#351C75'});
+          //      jQuery('#how_two').animate({backgroundColor :'#351C75'}, 2000);
             }
 
             if(y > $how_three.offset().top - 250){
                 $how_three.css('backgroundColor','#2E7D32');
-                $how_three.html("<img src='./images/tick.png'/>");
-                }
+                $how_three.html("<img src='./images/tick.png'/>");    
+            }
 
             else{
                 $how_three.css('backgroundColor','#351C75');
                 $how_three.html("3");
-                //$how_one.animate({backgroundColor :'#351C75'});
+                
             }
 
     });
