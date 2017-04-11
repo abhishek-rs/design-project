@@ -15,13 +15,13 @@ $(document).ready(function() {
 
   $("#btn-how").click(function() {
       $('html, body').animate({
-          scrollTop: $("#how").offset().top - 150
+          scrollTop: $("#how").offset().top - 75
       }, 1500);
   });
 
   $("#btn-showhow").click(function() {
       $('html, body').animate({
-          scrollTop: $("#how").offset().top - 150
+          scrollTop: $("#how").offset().top - 75
       }, 1500);
   });
 
