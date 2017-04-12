@@ -87,7 +87,7 @@ body{
     text-decoration: none;
 }
 
-#btn-showhow:hover{
+#btn-showhow:hover, #btn-sign-up:hover{
     background-color: #2E7D32;
 }
 
@@ -204,6 +204,51 @@ body{
     font-style: italic;   
 }
 
+#values{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#values-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+#values-text{
+    width: 50%;
+    padding: 30px;
+    align-self: center;
+}
+
+#values h1{
+    padding: 40px;
+    color: #fff;
+    background-color: #351C75;
+    font-size: 40px;
+    width: 100%;
+}
+
+#values-text h3 span{
+    color: #351C75;
+    font-size: 30px;
+}
+
+#values-image{
+    width: 50%;
+    align-self: center;
+}
+
+#values-image img{
+    width: 80%;
+    padding: 20px;
+}
+
 #where{
     
     width:100%;
@@ -211,7 +256,7 @@ body{
 }
 
 #where-container{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background-image: url('../images/map.png');
     background-attachment: fixed;
@@ -223,16 +268,15 @@ body{
 
 #where h1, #pricing h1{
     padding: 40px;
-    color: white;
+    color: #351C75;
     font-size: 40px;
     width: 100%;
-    background-color: #351C75;
     margin: 0;
 }
 
 #where-text{
     padding: 40px;
-    background-color: #B39DDB;
+    background-color: #351C75;
     color: white;
     align-self: center;
     font-size: 50px;
@@ -247,8 +291,9 @@ body{
 
 #where-text h3 span, #pricing-text p span{
     
-    color: #351C75;
-    font-style: italic; 
+    color: #4CAF50;
+    font-style: italic;
+    font-weight: bold; 
 }
 
 #pricing{
@@ -274,6 +319,13 @@ color: #351C75;
 #pricing-image{
     width: 50%;
     align-self: center;
+    font-size: 100px;
+    color: #351C75;
+}
+
+#pricing-image span{
+    font-size: 300px;
+    font-weight: bolder;
 }
 
 #pricing-image img{
@@ -306,7 +358,7 @@ color: #351C75;
     padding: 40px;
     padding-top: 10px;
     text-align: center;
-    background-color: #BDBDBD;
+    background-color: #455A64;
     font-family: 'Lobster', cursive;
     font-size: 20pt;
     color: white;
