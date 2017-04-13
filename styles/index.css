@@ -435,7 +435,7 @@ color: #351C75;
         position: relative;
         flex-direction: column-reverse;
         width: 100%;
-        top: 50px;
+        top: 60px;
     }
 
     #values-text{
@@ -474,7 +474,7 @@ color: #351C75;
     }
 
     #where-text h3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #pricing{
