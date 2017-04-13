@@ -65,7 +65,7 @@ $(document).ready(function() {
                 $intro.css('top','-150px');
             }
             
-            if(y > $how_one.offset().top - 250){
+         /*   if(y > $how_one.offset().top - 250){
                 $how_one.css('backgroundColor','#2E7D32');
                 $how_one.html("<img src='./images/tick.png'/>");
                 }
@@ -97,7 +97,7 @@ $(document).ready(function() {
                 $how_three.html("3");
                 
             }
-
+*/
     });
     
 });
