@@ -21,19 +21,13 @@ $(document).ready(function() {
 
   $("#btn-showhow").click(function() {
       $('html, body').animate({
-          scrollTop: $("#how").offset().top - 75
+          scrollTop: $("#how").offset().top
       }, 1500);
   });
 
   $("#btn-about").click(function() {
       $('html, body').animate({
-          scrollTop: $("#about").offset().top
-      }, 1500);
-  });
-
-  $("#btn-started").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#get-started").offset().top
+          scrollTop: $("#values").offset().top
       }, 1500);
   });
 

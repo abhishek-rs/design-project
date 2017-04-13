@@ -359,8 +359,8 @@ color: #351C75;
     padding-top: 10px;
     text-align: center;
     background-color: #455A64;
-    font-family: 'Lobster', cursive;
-    font-size: 20pt;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
     color: white;
 }
 
@@ -387,12 +387,12 @@ color: #351C75;
     }
 
     #how h1, #where h1, #pricing h1, #values h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
-#how{
+    #how{
     height: 180vh;
-}
+    }
 
     #how-container{
         position: relative;
@@ -423,8 +423,94 @@ color: #351C75;
     }
 
     .how-text{
+        font-size: 18px;
+    }
+
+    #values{
+        height: 120vh;
+        margin-bottom: 75px;
+    }
+
+    #values-container{
+        position: relative;
+        flex-direction: column-reverse;
+        width: 100%;
+        top: 50px;
+    }
+
+    #values-text{
+        align-self: center;
+        width: 100%;
+        
+    }
+
+    #values-text h3{
+        font-size: 18px;
+    }
+
+    #values-text h3 span{
+        font-size: 20px;
+    }
+
+    #values-image{
+        width: 90%;
+    }
+    #values-image img{
+        width: 100%;
+    }
+
+    #where{
+        height: 120vh;
+    }
+
+    #where-text{
+        width: 80%;
+        padding: 10px;
+    }
+
+    #where-text img{
+        width: 50%;
+        height: 100px;
+    }
+
+    #where-text h3{
         font-size: 15px;
     }
 
+    #pricing{
+        height: 100vh;
+    }
+
+    #pricing-container{
+        flex-direction: column;
+    }
+
+    #pricing-image{
+        align-self: center;
+        font-size: 50px;
+    }
+
+    #pricing-image span{
+        font-size: 100px;
+        width: 90%;
+    }
+
+    #pricing-text{
+        align-self: center;
+        width: 90%;
+    }
+
+    #pricing-text p{
+        font-size: 18px;
+    }
+
+    #btn-sign-up{
+        width: 90%;
+        padding: 20px;
+    }
+
+    #footer .text{
+        font-size: 18px;
+    }
 
 }
