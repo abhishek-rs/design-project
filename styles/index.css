@@ -367,3 +367,64 @@ color: #351C75;
 #footer a {
     margin: 15px;
 }
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 425px) {
+    #bs-example-navbar-collapse-1 {
+        background-color: #455A64;
+        top: 0;
+    }
+
+    #intro h1{
+        font-size: 45px;
+    }
+
+    #how h1, #where h1, #pricing h1, #values h1{
+        font-size: 30px;
+    }
+
+#how{
+    height: 180vh;
+}
+
+    #how-container{
+        position: relative;
+        flex-direction: column;
+    }
+
+    #how-left{
+        align-self: center;
+        width: 100%;
+    }
+
+    #how-left img{
+        height: 450px;
+        width: 75%;
+    }
+
+    #how-right{
+        align-self: center;
+        width: 100%;
+    }
+
+    .how-number{
+        padding: 10px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .how-text{
+        font-size: 15px;
+    }
+
+
+}
