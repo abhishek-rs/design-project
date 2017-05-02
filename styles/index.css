@@ -55,6 +55,12 @@ body{
     background-color: #2E7D32;
 }
 
+#try-app{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 #topbar li a, #brand {
     color: white;
     padding: 10px;
@@ -226,12 +232,13 @@ body{
     align-self: center;
 }
 
-#values h1{
+#values h1, #try h1{
     padding: 40px;
     color: #fff;
     background-color: #351C75;
     font-size: 40px;
     width: 100%;
+    text-align: center;
 }
 
 #values-text h3 span{
