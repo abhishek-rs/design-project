@@ -3,6 +3,7 @@ body{
     width: 100%;
     font-family: 'Fira Sans', sans-serif;
     position: relative;
+   
 }
 
 #intro{
@@ -252,8 +253,8 @@ body{
 }
 
 #values-image img{
-    width: 80%;
-    padding: 20px;
+    width: 100%;
+    padding: 0px;
 }
 
 #where{

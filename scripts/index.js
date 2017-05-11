@@ -15,10 +15,20 @@ $(document).ready(function() {
 
   $("#btn-how").click(function() {
       $('html, body').animate({
-          scrollTop: $("#how").offset().top - 75
+          scrollTop: $("#how").offset().top - 50
       }, 1500);
   });
 
+   $("#btn-started").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#try").offset().top - 50
+      }, 1500);
+  });
+
+ /* $("#btn-fullscreen").click(function() {
+      $('#inframe').webkitRequestFullScreen();
+  });
+*/
   $("#btn-showhow").click(function() {
       $('html, body').animate({
           scrollTop: $("#how").offset().top
